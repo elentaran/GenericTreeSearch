@@ -4,7 +4,7 @@ CC=ghc
 all: $(EXEC)
 
 
-$(EXEC): 
+$(EXEC): *.hs 
 	$(CC) main.hs -o $(EXEC) 
 
 
